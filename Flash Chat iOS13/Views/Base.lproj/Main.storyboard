@@ -32,7 +32,7 @@
                                     <segue destination="5v2-hE-4Ub" kind="show" id="yW6-Ho-FKu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ" customClass="CLTypingLabel" customModule="CLTypingLabel">
                                 <rect key="frame" x="52" y="418" width="310" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ph1-wX-D3a"/>
@@ -356,7 +356,6 @@
         <!--Navigation Controller-->
         <scene sceneID="YfK-wY-hwm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="663-Im-MTr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tol-jt-Wfc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JJF-cP-nmf">
@@ -368,12 +367,16 @@
                         <segue destination="Tim-3B-f4n" kind="relationship" relationship="rootViewController" id="RZ8-G7-hVu"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="663-Im-MTr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-86.956521739130437" y="134.59821428571428"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="y7D-jv-BlJ"/>
+    </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="RvN-Td-jKV"/>
+        <segue reference="8Pc-o6-b3I"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="119"/>
