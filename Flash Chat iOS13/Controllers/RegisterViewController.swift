@@ -25,7 +25,9 @@ class RegisterViewController: UIViewController {
                 } else {
                     print("email:  \(email)")
                     print("password: \(password)")
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    //navigate to the ChatViewController
+                    //using Constant struct called K
+                    self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
             }
           
